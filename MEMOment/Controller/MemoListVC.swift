@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  memoListVC.swift
 //  MEMOment
 //
 //  Created by Geon Kang on 2020/09/14.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MemoListVC: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.layer.cornerRadius = 10
+    
     }
-
-
+   
 }
-

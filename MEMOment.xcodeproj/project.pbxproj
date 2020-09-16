@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3440136ECF6C249F167ECF95 /* Pods_MEMOment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77AD7CFBE9675AED56E0F56 /* Pods_MEMOment.framework */; };
 		3D91DEC0250F059200CA995F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91DEBF250F059200CA995F /* AppDelegate.swift */; };
 		3D91DEC2250F059200CA995F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91DEC1250F059200CA995F /* SceneDelegate.swift */; };
 		3D91DEC4250F059200CA995F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91DEC3250F059200CA995F /* ViewController.swift */; };
 		3D91DEC7250F059200CA995F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D91DEC5250F059200CA995F /* Main.storyboard */; };
 		3D91DEC9250F059A00CA995F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D91DEC8250F059A00CA995F /* Assets.xcassets */; };
 		3D91DECC250F059A00CA995F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D91DECA250F059A00CA995F /* LaunchScreen.storyboard */; };
+		3D91DED4250F061400CA995F /* memoment_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D91DED3250F061400CA995F /* memoment_logo.png */; };
+		3D91DED6250F26CB00CA995F /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D91DED5250F26CB00CA995F /* MemoListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0412A1B9D65C931AD2822A15 /* Pods-MEMOment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEMOment.debug.xcconfig"; path = "Target Support Files/Pods-MEMOment/Pods-MEMOment.debug.xcconfig"; sourceTree = "<group>"; };
+		1118232E578D83228668ED9B /* Pods-MEMOment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEMOment.release.xcconfig"; path = "Target Support Files/Pods-MEMOment/Pods-MEMOment.release.xcconfig"; sourceTree = "<group>"; };
 		3D91DEBC250F059200CA995F /* MEMOment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEMOment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D91DEBF250F059200CA995F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D91DEC1250F059200CA995F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		3D91DEC8250F059A00CA995F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D91DECB250F059A00CA995F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D91DECD250F059A00CA995F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D91DED3250F061400CA995F /* memoment_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memoment_logo.png; sourceTree = "<group>"; };
+		3D91DED5250F26CB00CA995F /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
+		B77AD7CFBE9675AED56E0F56 /* Pods_MEMOment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEMOment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3440136ECF6C249F167ECF95 /* Pods_MEMOment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +49,11 @@
 		3D91DEB3250F059200CA995F = {
 			isa = PBXGroup;
 			children = (
+				3D91DED3250F061400CA995F /* memoment_logo.png */,
 				3D91DEBE250F059200CA995F /* MEMOment */,
 				3D91DEBD250F059200CA995F /* Products */,
+				E37BDDEF18012C44ECF4A77D /* Pods */,
+				EF97B8F142B6DAAF385624A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +70,39 @@
 			children = (
 				3D91DEBF250F059200CA995F /* AppDelegate.swift */,
 				3D91DEC1250F059200CA995F /* SceneDelegate.swift */,
-				3D91DEC3250F059200CA995F /* ViewController.swift */,
+				3D91DED7250F274300CA995F /* Controller */,
 				3D91DEC5250F059200CA995F /* Main.storyboard */,
 				3D91DEC8250F059A00CA995F /* Assets.xcassets */,
 				3D91DECA250F059A00CA995F /* LaunchScreen.storyboard */,
 				3D91DECD250F059A00CA995F /* Info.plist */,
 			);
 			path = MEMOment;
+			sourceTree = "<group>";
+		};
+		3D91DED7250F274300CA995F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D91DEC3250F059200CA995F /* ViewController.swift */,
+				3D91DED5250F26CB00CA995F /* MemoListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E37BDDEF18012C44ECF4A77D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0412A1B9D65C931AD2822A15 /* Pods-MEMOment.debug.xcconfig */,
+				1118232E578D83228668ED9B /* Pods-MEMOment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF97B8F142B6DAAF385624A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B77AD7CFBE9675AED56E0F56 /* Pods_MEMOment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D91DED0250F059A00CA995F /* Build configuration list for PBXNativeTarget "MEMOment" */;
 			buildPhases = (
+				931899B2E41F28D2899C4C6E /* [CP] Check Pods Manifest.lock */,
 				3D91DEB8250F059200CA995F /* Sources */,
 				3D91DEB9250F059200CA995F /* Frameworks */,
 				3D91DEBA250F059200CA995F /* Resources */,
+				2C16B0EC1E6C687F7EBF5DE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +167,54 @@
 			files = (
 				3D91DECC250F059A00CA995F /* LaunchScreen.storyboard in Resources */,
 				3D91DEC9250F059A00CA995F /* Assets.xcassets in Resources */,
+				3D91DED4250F061400CA995F /* memoment_logo.png in Resources */,
 				3D91DEC7250F059200CA995F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C16B0EC1E6C687F7EBF5DE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEMOment/Pods-MEMOment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEMOment/Pods-MEMOment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEMOment/Pods-MEMOment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		931899B2E41F28D2899C4C6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEMOment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D91DEB8250F059200CA995F /* Sources */ = {
@@ -140,6 +223,7 @@
 			files = (
 				3D91DEC4250F059200CA995F /* ViewController.swift in Sources */,
 				3D91DEC0250F059200CA995F /* AppDelegate.swift in Sources */,
+				3D91DED6250F26CB00CA995F /* MemoListVC.swift in Sources */,
 				3D91DEC2250F059200CA995F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +366,7 @@
 		};
 		3D91DED1250F059A00CA995F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0412A1B9D65C931AD2822A15 /* Pods-MEMOment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +384,7 @@
 		};
 		3D91DED2250F059A00CA995F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1118232E578D83228668ED9B /* Pods-MEMOment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
