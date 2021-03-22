@@ -8,6 +8,7 @@
 
 ## 서비스 소개
 <img src="https://user-images.githubusercontent.com/30033658/111913522-d73ee580-8ab1-11eb-8d53-875f03b4a207.png" width="40%">
+
 - MEMOment(메모먼트)는 순간순간을 기록할 수 있는 한 줄 일기입니다.
 - 글쓰기 버튼을 통해 선택한 날짜에 순간을 기록할 수 있습니다.
 - 수정 및 삭제가 가능합니다.
